@@ -46,6 +46,8 @@ Welcome to E-commerce App , a feature-rich and user-friendly e-commerce web appl
 email : `xyz@gmail.com`
 password : `1234567`
 
+https://ecommerce-authentic-app.vercel.app/login
+
 
 
 
