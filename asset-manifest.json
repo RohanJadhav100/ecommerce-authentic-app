@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ecommerce-authentic-app/static/css/main.656912c8.css",
+    "main.js": "/ecommerce-authentic-app/static/js/main.4e00c7c6.js",
+    "static/media/1725.jpg": "/ecommerce-authentic-app/static/media/1725.bdd9b0785d445d4b1b34.jpg",
+    "static/media/pexels-ksenia-chernaya-4450333.jpg": "/ecommerce-authentic-app/static/media/pexels-ksenia-chernaya-4450333.45af4f1fa6a9b52c71fb.jpg",
+    "static/media/payment-method-png-26074.png": "/ecommerce-authentic-app/static/media/payment-method-png-26074.813aca0689574b93eade.png",
+    "index.html": "/ecommerce-authentic-app/index.html",
+    "main.656912c8.css.map": "/ecommerce-authentic-app/static/css/main.656912c8.css.map",
+    "main.4e00c7c6.js.map": "/ecommerce-authentic-app/static/js/main.4e00c7c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.656912c8.css",
+    "static/js/main.4e00c7c6.js"
+  ]
+}
