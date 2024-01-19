@@ -1,0 +1,114 @@
+.main_footer {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 200px 1fr;
+  background-color: #000942d8;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.footer_container {
+  border-top: 1px solid #000942;
+}
+
+.link_col_first {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.link_col_third {
+  margin-left: 20px;
+}
+.link_col_third li {
+  list-style: none;
+  margin-bottom: 2px;
+  padding: 3px 0;
+}
+.link_col li {
+  list-style: none;
+  margin-bottom: 2px;
+  padding: 3px 0;
+}
+.link_col_text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.link_col_list a {
+  text-decoration: none;
+  color: #a8b1ce;
+  font-size: 1.1rem;
+}
+.followUs_text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 10px;
+}
+.social_section {
+  grid-column-start: 6;
+  grid-column-end: 9;
+}
+.newletter_section {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.social_links {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.newletter_section div {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.social_icon {
+  font-size: 16px;
+  color: white;
+}
+
+.newletter_section input {
+  padding: 6px 8px;
+  width: 320px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.newletter_section button {
+  padding: 5px 8px;
+  border: none;
+  background-color: #a8b1ce;
+  height: 30px;
+  transform: translateY(1px);
+}
+
+.payement_image {
+  /* width: 240px; */
+  grid-row: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  align-self: center;
+}
+
+.payement_image img {
+  width: 100%;
+}
+
+.copyright_text {
+  grid-row: 2;
+  grid-column: 6/8;
+  align-self: center;
+  font-size: 1.2rem;
+  color: white;
+}

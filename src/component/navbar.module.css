@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 64px;
+  color: #f8f9fd;
+  position: fixed;
+  margin-bottom: 64px;
+  width: 100%;
+}
+
+.darkNav {
+  background-color: black;
+}
+.blueNav {
+  background-color: #010e5d;
+}
+.logo {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.navlinks li {
+  list-style: none;
+}
+.navlinks li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #f8f9fd;
+}
+.cartBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cartBox p {
+  font-size: 1.2rem;
+  transform: translateY(2px);
+}
+.cartIcon {
+  font-size: 1.7rem;
+  transform: translateY(4px);
+}
+.sunIcon button {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  transform: translateY(3px);
+  color: #f8f9fd;
+}

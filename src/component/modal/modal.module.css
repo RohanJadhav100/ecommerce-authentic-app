@@ -1,0 +1,49 @@
+.order_form_segment form {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.order_form_segment form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.order_form_segment form label {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.order_form_segment form input {
+  margin-bottom: 12px;
+  padding: 6px 8px;
+  font-size: 1.2rem;
+  outline: none;
+  background-color: rgba(223, 222, 222, 0.774);
+  border: none;
+  border-radius: 5px;
+}
+.order_form_segment form button {
+  padding: 5px 0;
+  background-color: #27306e;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(128, 128, 128, 0.726);
+}
+
+.order_form_segment {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,36 @@
+.dashboard_card_container {
+  /* background-color: violet; */
+  padding-top: 110px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+}
+
+.person_icon {
+  font-size: 3rem;
+  margin-bottom: 3px;
+  color: #27306e;
+}
+.numbers {
+  font-size: 1.6rem;
+}
+.dashboard_cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.dashboard_single_card p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #27306e;
+}
+.dashboard_single_card {
+  padding: 10px 0;
+  border-radius: 8px;
+  width: 14%;
+  box-shadow: 1px 1px 4px #27306eab;
+}

@@ -1,0 +1,29 @@
+.order_container {
+  padding: 66px 20px 0 20px;
+  margin-bottom: 300px;
+}
+
+.order_head,
+.order_detail {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.selected_word {
+  color: #51cf66;
+  font-weight: 500;
+}
+.order_head div {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  background-color: #e9ecef;
+  padding: 8px 0;
+}
+
+.order_detail div {
+  background-color: #f8f9fa;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 4px 0;
+}

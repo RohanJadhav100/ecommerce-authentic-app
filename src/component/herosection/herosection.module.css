@@ -1,0 +1,10 @@
+.imagebox img {
+  max-width: 1400px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagebox {
+  margin-bottom: 50px;
+}

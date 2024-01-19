@@ -1,0 +1,122 @@
+.links a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.links a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.links div {
+  width: 180px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 14px;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cart_icon,
+.bag_icon,
+.user_icon {
+  font-size: 1.5rem;
+  /* transform: translateY(-11%); */
+  margin-top: -2px;
+}
+
+.product {
+  border: 1px solid rgb(27, 27, 87);
+  color: rgb(27, 27, 87);
+}
+.order {
+  border: 1px solid lightcoral;
+  color: lightcoral;
+}
+.user {
+  border: 1px solid rgb(81, 238, 81);
+  color: rgb(81, 238, 81);
+}
+
+.table_data {
+  padding: 0 10px;
+}
+
+.dashboardTab_container h2 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 18px;
+}
+.InTable_icons {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+th {
+  padding: 4px 10px;
+  font-size: 1.4rem;
+  background-color: rgba(27, 27, 87, 0.842);
+  color: white;
+  font-weight: 500;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /* width: 100%; */
+}
+
+td {
+  padding: 4px 10px;
+  font-size: 1.4rem;
+
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.table_image_div {
+  height: 30px;
+  width: 60px;
+  margin: 0 auto;
+}
+.table_image_div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.addBtn {
+  padding: 6px 10px;
+  margin-left: 10px;
+  position: absolute;
+  right: 10px;
+  transform: translateY(-50px);
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 8px;
+  background-color: rgb(47, 47, 129);
+  cursor: pointer;
+}
+.spinner {
+  position: absolute;
+  left: 50%;
+}

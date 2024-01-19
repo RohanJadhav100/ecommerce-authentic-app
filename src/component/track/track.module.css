@@ -1,0 +1,34 @@
+.track_container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding: 0 40px;
+  margin-bottom: 70px;
+}
+.track_icons {
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+  color: #000942;
+}
+
+.track_single_card {
+  width: 100%;
+  padding: 18px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #000942;
+  transition: all 0.5s;
+}
+.track_single_card:hover {
+  box-shadow: 1px 1px 10px #000942;
+  transform: scale(1.04);
+}
+.track_small_heading {
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.track_text {
+  font-size: 1.2rem;
+}
