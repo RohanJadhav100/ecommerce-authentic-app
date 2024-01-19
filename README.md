@@ -38,9 +38,16 @@ Welcome to E-commerce App , a feature-rich and user-friendly e-commerce web appl
 - User-freindly
 
 
+
 ## Demo
 
-https://strivestream.netlify.app/
+**Test User**
+
+email : `xyz@gmail.com`
+password : `1234567`
+
+
+
 
 
 ## Getting Started
